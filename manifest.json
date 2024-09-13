@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "NoMoreTwitterBlue",
+    "description": "Removes tweets from your feed from users that have Twitter Blue.",
+    "version": "1.1.1",
+    "icons": {
+        "16": "/images/NMTB_Icon16.png",
+        "48": "/images/NMTB_Icon48.png",
+        "128": "/images/NMTB_Icon128.png"
+    },
+    "permissions": [
+        "scripting",
+        "contextMenus",
+        "storage"
+    ],
+    "content_scripts": [{
+        "matches": ["https://x.com/*"],
+        "js": ["content.js"]
+    }],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

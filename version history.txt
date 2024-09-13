@@ -1,0 +1,4 @@
+v1.1.1: Fixed error where it would create multiple instances of context menu id 1.
+v1.1.0: Added context menu on right click to enable/disable the extension. Uses local storage.
+v1.0.1: Fixed issue where scrolling up would remove all posts (changed on scroll -> on scroll down). Instead of each scroll removing 1 tweet max, each scroll removes all twitter blue posts.
+v1.0.0: Basic functionality, js file works as follows: on scroll, look for first occurring twitter blue icon, go up 18 parents, delete node.

@@ -1,3 +1,4 @@
+v1.2~ (WIP): Working on adding exclusions list so that you are able to see posts from blue checkmark accounts that you add to the exclusion list.
 v1.1.1: Fixed error where it would create multiple instances of context menu id 1.
 v1.1.0: Added context menu on right click to enable/disable the extension. Uses local storage.
 v1.0.1: Fixed issue where scrolling up would remove all posts (changed on scroll -> on scroll down). Instead of each scroll removing 1 tweet max, each scroll removes all twitter blue posts.
